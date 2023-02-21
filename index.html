@@ -10,26 +10,7 @@
 	font-size: x-large;
 }
 </style>
-<!-- Yandex.Market Widget -->
-<script async src="https://aflt.market.yandex.ru/widget/script/api" type="text/javascript"></script>
-<script type="text/javascript">
-    (function (w) {
-        function start() {
-            w.removeEventListener("YaMarketAffiliateLoad", start);
-            w.YaMarketAffiliate.createWidget({type:"models",
-	containerId:"marketWidget",
-	params:{clid:2751591,
-		searchCount:5,
-		searchText:"скидки и акции",
-		themeRows:5,
-		themeId:5 } });
-        }
-        w.YaMarketAffiliate
-            ? start()
-            : w.addEventListener("YaMarketAffiliateLoad", start);
-    })(window);
-</script>
-<!-- End Yandex.Market Widget -->	
+	
 	
 </head>
 <body style='text-align:center;padding-top:50px;' id='body'>
@@ -40,9 +21,7 @@ VK.init({
 </script>
 <div align="center">
   
-<h1>Подборка товаров:</h1>
-	<p><div id="marketWidget"></div></p>
-  
+ 
 	<h1>Доски объявления соседей:</h1>
 	
 	<div class="col-sm-12">
